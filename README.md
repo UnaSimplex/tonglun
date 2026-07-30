@@ -1,85 +1,128 @@
-# 万物通论 (TongLun — Theory of Everything)
+# TongLun — Theory of Everything
 
-> **公理公开。可审查证伪。可推翻重建。可贡献改进。**
-> ——一个开源的本体论框架。
+> **Axioms open. Verifiable. Forkable. Falsifiable.**
+> — an open-source ontological framework.
 
-万物通论试图用一套公理体系——道=能量本身，自旋×公转是运动的两种基本形式，三层宇宙=能量密度的速度递减——贯通物理学、生物学、意识科学、医学、伦理学和宇宙学。
+TongLun (万物通论, "A Comprehensive Theory of Everything") attempts to unify physics, biology, consciousness science, medicine, ethics, and cosmology under a single axiomatic system:
 
-**这不是一个"已完成的理论"。这是一个"公开的框架"。**
-它的公理、推论、证伪条件全部摊在桌面上。欢迎审查、挑战、修改、推翻、重建。
+**Dao = Energy itself. Spin × Revolution are the two fundamental forms of motion. The three-layer universe is a cascade of energy density decreasing from outer chaos (v>πc, pure velocity) through the light-speed layer to the inner core (v≤c, condensed as mass).**
+
+This is **not a finished theory**. This is **an open framework**. Its axioms, deductions, and falsification conditions are all laid out on the table. Review, challenge, modify, overturn, rebuild — all welcome.
 
 ---
 
-## 核心框架
+## Core Framework (English Summary)
 
-### 根公理
+### Root Axioms
+
+- **A1** ∀x [∃(x) ↔ E(x)] — To exist is to be energy. There is no existence that is not energy.
+- **A2** ∀x [E(x) → M(x)] — To be energy is to be in motion. Stillness = non-existence.
+- **C1** ∀x [M(x) → S(x) ⊕ R(x)] — Motion is either Spin or Revolution. No third form.
+- **H1** ∀x [∃(x) → D(x) > 0] — Everything that exists has energy density > 0.
+- **H2** ∀x,y [D(x) > D(y) → ∂E/∂t flows x→y] — Energy flows spontaneously from high density to low density.
+- **H6** ∃L [L actively maintains D-gradient against H2] — Life is the only energy structure that actively reverses the density gradient.
+
+*Full 30-axiom formalization: [Appendix: Formal Axioms](附录/公理形式化表述.md)*
+
+### Three-Layer Universe
+
 ```
-道 = 能量本身 = 三层宇宙全体
-├── 自旋：存在基本形式，确立个体性，"自旋求生"
-├── 公转：能量体间关系，建立关联性，"公转图存"
-├── π无限不循环：宇宙开放的数学证据
-├── 能量密度六公理 H1-H6
-└── 光锥宇宙模型：持续性燃爆→光锥球半径ct→多光锥=多重宇宙
+Outer Chaos (v > πc)          → Highest energy density (pure velocity)
+        ↓
+Light-speed Layer (c ≤ v ≤ πc) → Medium density (light, information, consciousness)
+        ↓  (c = dimensional reduction point)
+Inner Core (v ≤ c)            → Lowest density (velocity "frozen" as mass)
 ```
 
-### 三部十二篇一百章
-1. **天道篇**：本体论→宇宙演化→数理→生命→意识→人学→医学
-2. **人道篇**：认识论→价值论
-3. **人天篇**：伦理学→归宿论→终极论
+**Key insight**: What we perceive as "solid matter" is not evidence of high density — it is the price of velocity reduction. E = mc² describes the phase transition when high-density velocity crosses below c and condenses into mass.
+
+### Light-Cone Universe Model
+
+The "explosion" (燃爆) was not a one-time event. Two energy bodies in the outer chaos achieved permanent spin-lock (no friction, no entropy in v>πc). This lock-point is a persistent high-temperature region that continuously:
+
+- **Inhales** surrounding chaotic energy bodies
+- **Pumps** photons into the expanding light-cone (the inner core)
+- **Exhales** remaining energy back into chaos
+
+The inner core = a light-cone sphere of radius r = ct, still expanding. The lock-point has been running for 13.8 billion years and shows no sign of cooling. **Dark energy = the driving pressure of this still-running pump.**
+
+Outer chaos is infinite → infinite lock-points → infinite light-cones = **multiverse as necessary deduction**, not optional speculation.
+
+### Why This Framework Explains What Mainstream Science Cannot
+
+| Problem | Mainstream | TongLun |
+|---------|-----------|---------|
+| Dark energy | Unknown "vacuum energy" (10^120× off) | Lock-point pump still running |
+| Hierarchy problem (10^19) | Supersymmetry (unobserved) | Three-layer density cascade |
+| Multiverse | Speculative landscape | Necessary deduction from premises |
+| Black hole information | Requires holographic principle | Archived in outer chaos "hard drive" |
+| Physical constants' origin | "That's just what they measure to be" | c, h = functions of lock-point parameters |
+| Consciousness hard problem | Emergence (no further explanation) | Mind-spirit as πc-layer spin interaction |
+
+### Four Testable Predictions
+
+1. **Fine-structure constant α was smaller in the early universe** — lock-point throughput frequency not yet stabilized (Webb et al. 2011 reported controversial evidence consistent with this direction)
+2. **Cosmic voids should be ellipsoidal** — if formed by light-cone collision scars, voids should show flattened shapes with long axis ⊥ collision direction
+3. **CMB Cold Spot** — may be the "cooling" signature of a neighboring light-cone grazing ours
+4. **Dark flow** — galaxy clusters moving in a specific direction may feel the surface-tension pressure of a neighboring light-cone
 
 ---
 
-## 快速导航
+## Repository Structure
 
-| 你想看什么 | 去哪里 |
-|------|------|
-| 全书框架声明 | [总序](总序.md) |
-| 30条公理形式逻辑 | [公理体系](附录/公理形式化表述.md) |
-| 推翻这个框架需要什么证据 | [证伪条件表](附录/证伪条件表.md) |
-| 与相对论/量子力学的关系 | [理论接口](附录/理论接口声明.md) |
-| 休谟/康德/贝克莱/奥卡姆的挑战 | [哲学回应](附录/哲学挑战回应.md) |
-| 数学形式化+数值模拟 | [数学附录](附录/数学形式化初版.md) + [代码](代码/lightcone_sim_v1.py) |
-| 100章全文 | [正文目录](正文章节/) |
-| 核心分析报告 | [分析报告](分析报告/) |
-
----
-
-## 开源哲学
-
-万物通论的开源精神：
-
-- **公理公开** — 全体系30条公理以自然语言+一阶谓词逻辑双版本公开
-- **可证伪** — 7条核心命题标注了"什么观测结果会推翻它"
-- **诚实声明** — [假说]和[证据-强]明确区分，不做夸大。"这个意识模型目前是假说。"
-- **接受PR** — 欢迎修正、补充、推翻、重建。见[贡献指南](CONTRIBUTING.md)
-
-> 一个理论不是被"支持它的证据"确立的——是被"它冒着被推翻的风险活了下来"确立的。
+```
+tonglun/
+├── README.md                    # You are here (English)
+├── README_zh.md                 # 中文总览
+├── 总序.md                      # Full preface (Chinese)
+├── 正文章节/                    # 100 chapters in 12 parts
+├── 附录/                        # Appendices
+│   ├── 公理形式化表述.md         # 30 axioms in 1st-order logic
+│   ├── 证伪条件表.md             # Falsification conditions
+│   ├── 理论接口声明.md           # Interface with GR/QM/thermodynamics
+│   ├── 哲学挑战回应.md           # Responses to Hume/Kant/Berkeley/Occam
+│   └── 数学形式化初版.md         # Differential equations + simulation
+├── 分析报告/                    # Analysis reports
+├── 代码/                        # lightcone_sim_v1.py
+└── 资源/                        # Glossary, references
+```
 
 ---
 
-## 当前已知漏洞（欢迎贡献）
+## Quick Start for International Readers
 
-- [ ] 暗物质的万物通论解释（暂无替代粒子候选者）
-- [ ] πc层的物理实在性验证（全书地基之一，尚无直接实验证据）
-- [ ] 从群论严格推导物理常数c、h的数值
-- [ ] 公理一致性自动检验脚本
-- [ ] 英文翻译（全文目前为中文）
-
----
-
-## 许可证
-
-本作品采用 [CC BY-SA 4.0](LICENSE) 许可。
-- ✅ 允许复制、分发、修改、商用
-- ✅ 署名——简一的名字与框架同在
-- ✅ 相同方式共享——修改版也必须开源
+- **I have 5 minutes**: Read this README + [Falsification Conditions](附录/证伪条件表.md) (the table is self-explanatory)
+- **I have 30 minutes**: Add [Formal Axioms](附录/公理形式化表述.md) + [Theory Interface](附录/理论接口声明.md)
+- **I want to challenge this**: Check [CONTRIBUTING.md](CONTRIBUTING.md) — the highest form of contribution is to falsify a core proposition
+- **I want to help translate**: See issues labeled `help-wanted: translation`
 
 ---
 
-## 作者
+## Open Source Philosophy
 
-**简一** — 框架的创建者和第一作者。
+- **Axioms public** — 30 axioms in natural language + 1st-order logic
+- **Falsifiable** — 7 core propositions have clearly stated "what observation would overturn this"
+- **Honest labeling** — [Hypothesis] and [Strong Evidence] clearly distinguished. "This consciousness model is currently a hypothesis. No exaggeration."
+- **Accepts PRs** — corrections, additions, overturns, rebuilds all welcome
 
-万物通论不是一个人的财产。它是向所有思考者开放的一个问题：**"如果一切皆能量，世界会是什么样子？"**
+> A theory is not established by the evidence that supports it — it is established by surviving the risk of being overturned.
 
-欢迎你用自己的答案来修改这个问题。
+---
+
+## Known Gaps (Welcome Contributions)
+
+- [ ] TongLun explanation for dark matter (no alternative to particle candidates yet)
+- [ ] Physical reality verification of the πc layer (no direct experimental evidence)
+- [ ] Rigorous group-theoretic derivation of c and h values
+- [ ] Automated axiom consistency checker
+- [ ] English translation of 100 chapters (currently Chinese only)
+
+---
+
+## License
+
+[CC BY-SA 4.0](LICENSE) — Attribute (Jian Yi / 简一), Share-Alike.
+
+The framework is not one person's property. It is a question posed to all thinkers: **"If everything is energy, what would the world look like?"**
+
+You are welcome to answer that question with your own amendments.
