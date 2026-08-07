@@ -5,7 +5,7 @@
 
 TongLun (万物通论, "A Comprehensive Theory of Everything") attempts to unify physics, biology, consciousness science, medicine, ethics, and cosmology under a single axiomatic system:
 
-**Dao = Energy itself. Spin × Revolution are the two fundamental forms of motion. The three-layer universe is a cascade of energy density decreasing from outer chaos (v>πc, pure velocity) through the light-speed layer to the inner core (v≤c, condensed as mass).**
+**Dao = Energy itself. Spin × Revolution are the two fundamental forms of motion. The three-layer universe is a nested light-cone-sphere structure: the inner core is a small light-cone sphere (spacetime-complete, where all of modern science is validated), the middle layer is a π-times larger light-cone sphere (energy bodies orbit anchored at light speed c; πc marks the boundary), and the outer chaos is an infinite sea of fluctuations (no light, no causality, no spacetime — the concept of velocity has no operational definition there).**
 
 This is **not a finished theory**. This is **an open framework**. Its axioms, deductions, and falsification conditions are all laid out on the table. Review, challenge, modify, overturn, rebuild — all welcome.
 
@@ -38,7 +38,7 @@ Inner Core (v ≤ c)            → Lowest density (velocity "frozen" as mass)
 
 ### Light-Cone Universe Model
 
-The "explosion" (燃爆) was not a one-time event. Two energy bodies in the outer chaos achieved permanent spin-lock (no friction, no entropy in v>πc). This lock-point is a persistent high-temperature region that continuously:
+The "explosion" (燃爆) was not a one-time event. Two energy bodies in the outer chaos achieved permanent spin-lock (no friction, no entropy in the outer chaos). This lock-point is a persistent high-temperature region that continuously:
 
 - **Inhales** surrounding chaotic energy bodies
 - **Pumps** photons into the expanding light-cone (the inner core)
